@@ -22,9 +22,8 @@ The sequencing data for this analysis is sourced from the NCBI Sequence Read Arc
 ```plaintext
 /path/to/project/root/
 ├── *.sh                 # Scripts
-├── SRR*/                # Sample folders with paired-end FASTQ files
-│   ├── *_1.fastq.gz
-│   └── *_2.fastq.gz
+├── *_1.fastq.gz         # Raw paired-end reads (R1)
+├── *_2.fastq.gz         # Raw paired-end reads (R2)
 ├── genome/              # Reference genome and annotation file
 ├── fastqc/              # FASTQC reports
 ├── trim/                # Trimmed FASTQ files
