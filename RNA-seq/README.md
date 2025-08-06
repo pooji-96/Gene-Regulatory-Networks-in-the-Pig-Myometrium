@@ -7,7 +7,7 @@
 The sequencing data for this analysis is sourced from the NCBI Sequence Read Archive (SRA) (Project ID: PRJNA891690) and downloaded using the SRA Toolkit.
 
 ### Software Dependencies  
-**Prerequisite:** Access to a Slurm-based HPC system with the required software tools available or installed manually (if applicable)
+**Prerequisite:** Access to a Slurm-based HPC system with the required software tools available or installed manually (if applicable)  
 `miniconda`  
 `sratoolkit`  
 `fastqc`  
